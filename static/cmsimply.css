@@ -2,8 +2,8 @@
   position: relative;
 }
 header{
-background-image:url(http://2.bp.blogspot.com/-b82rbkI42Vw/VROvw2YucXI/AAAAAAAAC7g/S2KZcp8jl_A/s1600/4141.png);
-  padding: 53px;
+  background: #ccc;
+  padding: 20px;
 }
 confmenu
 {
@@ -27,8 +27,8 @@ confmenu li a
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
-	background: #333;
+	color: #16dcf6;
+	background: #f5e01b;
 	text-decoration: none;
 	border-right: 1px solid #fff;
 }
@@ -112,7 +112,7 @@ ul#css3menu1 a{
 	text-align:left;
 	text-decoration:none;
 	font:17px Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-	color:#000000;
+	color:#fd0000;
 	cursor:pointer;
 	padding:7px 12px;
 	background-color:;
@@ -133,7 +133,7 @@ ul#css3menu1 ul a{
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	font:14px Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-	color:#000000;
+	color:#ef05ff;
 	text-decoration:none;
 }
 ul#css3menu1 li:hover>a,ul#css3menu1 li a.pressed{
@@ -201,7 +201,7 @@ background-color: white;
 width: 195px;
 }
 body {
-  background-image:url(https://www.bloggang.com/data/n/narak-jung/picture/1466506819.gif);
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB5sE-qLr_MZBwsCFcS7up9IV-I5AWEdCffIA-C1SrnJQa19YM):
   margin-bottom: 120px;
 }
 
