@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20180827201556.1"><vh>@settings</vh>
+<v t="leo.20180827201556.1" a="E"><vh>@settings</vh>
 <v t="leo.20180827201556.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180827201556.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
@@ -24,11 +24,14 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20181102151147.1" a="E"><vh>網站</vh>
+<v t="leo.20181102151147.2"><vh>內容</vh></v>
+</v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
 <v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
@@ -38,11 +41,11 @@
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
-<v t="leo.20181025231649.1"><vh>各式內容引用範例</vh>
-<v t="leo.20181025231649.2"><vh>導入數學符號與方程式</vh>
+<v t="leo.20181025231649.1" a="E"><vh>各式內容引用範例</vh>
+<v t="leo.20181025231649.2" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20181025231649.3"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20181025231649.4"><vh>導入縮排程式碼</vh>
+<v t="leo.20181025231649.4" a="E"><vh>導入縮排程式碼</vh>
 <v t="leo.20181025231649.5"><vh>引用程式碼</vh></v>
 </v>
 <v t="leo.20181025231649.6" a="E"><vh>導入影片</vh>
@@ -135,8 +138,8 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
-
+<t tx="leo.20180827201621.10">## 腦袋空不要緊、關鍵是不要進水
+40723111 : )
 ### 虎科大機械設計工程系不關心你
 
 &lt;small&gt;
@@ -158,6 +161,8 @@ Created by [Ray](http://lab.kmol.info/)
 </t>
 <t tx="leo.20180827201621.12"># 投影片快捷鍵
 
+## (其實沒有比較快)
+
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
 * 按 s 鍵可以顯示投影片筆記 (show)
@@ -173,16 +178,16 @@ Created by [Ray](http://lab.kmol.info/)
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
-(數學好難哦)
+
     &lt;/script&gt;
 &lt;/section&gt;
 
 
 
-						
-</t>
+						</t>
 <t tx="leo.20180827201621.15"># 數學符號與方程式
 
+ ## (數學好難哦)
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
 
@@ -200,7 +205,8 @@ $$I = \int \rho R^{2} dV$$
 						
 </t>
 <t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
-(可是我不知道甚麼是MARKDOWN)
+
+### (可是我不知道甚麼是MARKDOWN)
 以下利用 Markdown 格式展示 Python 程式碼:
 ```
 @language python
@@ -235,7 +241,8 @@ make.start()
 <t tx="leo.20180827201621.19">## 使用 iframe 導入影片
 
 ### 導入影片 template
-</t>
+
+#### (老師沒教我)</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
@@ -350,6 +357,21 @@ make.start()
 </t>
 <t tx="leo.20181025231649.7">
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181102151147.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+github:&lt;https://github.com/mdecp2018/site-s40723111&gt;
+Blog:&lt;https://mdecp2018.github.io/site-s40723111/blog&gt;
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						</t>
+<t tx="leo.20181102151147.2"># 我的網站
+
 </t>
 </tnodes>
 </leo_file>
