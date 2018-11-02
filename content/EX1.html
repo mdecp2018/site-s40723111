@@ -61,6 +61,41 @@ $(function(){
 
 </ul>
 </confmenu></header>
-<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='組員操作影片.html'>組員操作影片</a><ul><li><a href='Week1.html'>Week1</a><li><a href='week2.html'>week2</a><li><a href='week3.html'>week3</a><li><a href='week4.html'>week4</a><li><a href='week5.html'>week5</a><li><a href='week6.html'>week6</a><li><a href='week7.html'>week7</a><li><a href='week8.html'>week8</a><li><a href='week9.html'>week9</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a><li><a href='EX1.html'>EX1</a><li><a href='血小板.html'>血小板</a></li></ul></nav><section>week4 << <a href='week4.html'>Previous</a> <a href='week6.html'>Next</a> >> week6<br /><h1>week5</h1>
-<p>&nbsp; 如何更改背景<iframe width="560" height="314" src="//www.youtube.com/embed/iMeF61SioKM" allowfullscreen="allowfullscreen"></iframe></p>
-<br />week4 << <a href='week4.html'>Previous</a> <a href='week6.html'>Next</a> >> week6</section></div></body></html>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='組員操作影片.html'>組員操作影片</a><ul><li><a href='Week1.html'>Week1</a><li><a href='week2.html'>week2</a><li><a href='week3.html'>week3</a><li><a href='week4.html'>week4</a><li><a href='week5.html'>week5</a><li><a href='week6.html'>week6</a><li><a href='week7.html'>week7</a><li><a href='week8.html'>week8</a><li><a href='week9.html'>week9</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a><li><a href='EX1.html'>EX1</a><li><a href='血小板.html'>血小板</a></li></ul></nav><section>Fusion 360 << <a href='Fusion 360.html'>Previous</a> <a href='血小板.html'>Next</a> >> 血小板<br /><h1>EX1</h1>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 Ex1 原始碼
+a = 0
+def my_print(n, input_str):
+    print("以下將重覆列印 '", input_str + "' " + str(n) + "次")
+    for i in range(n):
+        print(i, input_str)
+
+my_print(5, "Hello World!")
+the_str = "開始學習 Python"
+num = input("請輸入要列印的次數!")
+my_print(int(num), the_str)
+a = a + 1
+print("(" + str(a) + ")", "_" * 25)
+
+def myfun():
+    yield 1
+    yield 2
+    yield 3
+
+for i in myfun():
+    print(i)
+
+x = iter(myfun())
+y = list(myfun())
+
+a = a + 1
+print("(" + str(a) + ")", "_" * 25)
+print(x.__next__())
+print(x.__next__())
+print(x.__next__())
+print(y)
+</pre>
+<p>在遠端執行</p>
+<p>會出現要列印的次數</p>
+<p><img src="./../images/未命名.png" width="300" height="118" alt=""></p>
+<p>然後存檔用SciTE執行&nbsp;</p>
+<p><img src="./../images/87453.png" width="500" height="533" alt=""></p><br />Fusion 360 << <a href='Fusion 360.html'>Previous</a> <a href='血小板.html'>Next</a> >> 血小板</section></div></body></html>
