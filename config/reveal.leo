@@ -24,8 +24,8 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181102151147.1" a="E"><vh>網站</vh>
-<v t="leo.20181102151147.2"><vh>內容</vh></v>
+<v t="leo.20181109000706.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20181109000706.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -140,7 +140,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
 <t tx="leo.20180827201621.10">## 腦袋空不要緊、關鍵是不要進水
 40723111 : )
-### 虎科大機械設計工程系不關心你
+### 虎科大機械設計工程系歡迎您
 
 &lt;small&gt;
 Created by [Ray](http://lab.kmol.info/)
@@ -161,7 +161,7 @@ Created by [Ray](http://lab.kmol.info/)
 </t>
 <t tx="leo.20180827201621.12"># 投影片快捷鍵
 
-## (其實沒有比較快)
+### (很好用)
 
 * 利用箭頭上下前後換頁
 * 按 f 鍵進入全螢幕模式 (full screen)
@@ -184,15 +184,17 @@ Created by [Ray](http://lab.kmol.info/)
 
 
 
-						</t>
+						
+
+</t>
 <t tx="leo.20180827201621.15"># 數學符號與方程式
 
- ## (數學好難哦)
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
 
 $$I = \int \rho R^{2} dV$$
-</t>
+
+ ## (數學好難哦)</t>
 <t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -242,7 +244,8 @@ make.start()
 
 ### 導入影片 template
 
-#### (老師沒教我)</t>
+#### (我還沒學過)
+</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
@@ -356,22 +359,24 @@ make.start()
 						
 </t>
 <t tx="leo.20181025231649.7">
+
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20181102151147.1">&lt;section data-markdown&gt;
+<t tx="leo.20181109000706.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
-github:&lt;https://github.com/mdecp2018/site-s40723111&gt;
-Blog:&lt;https://mdecp2018.github.io/site-s40723111/blog&gt;
     &lt;/script&gt;
 &lt;/section&gt;
 
 
-
-						</t>
-<t tx="leo.20181102151147.2"># 我的網站
-
+						
 </t>
+<t tx="leo.20181109000706.2"># MCAD w4簡報
+
+* [Cmsimfly](https://github.com/mdecp2018/site-s40723111)操作
+
+* [Onshape](https://mdecp2018.github.io/site-s40723111/blog)操作
+
+* [遠端網站](https://mdecp2018.github.io/site-s40723111/content/index.html)操作</t>
 </tnodes>
 </leo_file>

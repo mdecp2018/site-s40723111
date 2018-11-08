@@ -2,8 +2,8 @@
   position: relative;
 }
 header{
-  background-image:url(http://2.bp.blogspot.com/-b82rbkI42Vw/VROvw2YucXI/AAAAAAAAC7g/S2KZcp8jl_A/s1600/4141.png);
-  padding: 53px;
+
+
 }
 confmenu
 {
@@ -27,8 +27,8 @@ confmenu li a
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #16dcf6;
-	background: #c1fdc4;
+	color: #fff;
+	background: #333;
 	text-decoration: none;
 	border-right: 1px solid #fff;
 }
@@ -112,7 +112,7 @@ ul#css3menu1 a{
 	text-align:left;
 	text-decoration:none;
 	font:17px Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-	color:#fd0000;
+	color:#000000;
 	cursor:pointer;
 	padding:7px 12px;
 	background-color:;
@@ -201,7 +201,11 @@ background-color: white;
 width: 195px;
 }
 body {
-  background-image:url(http://www.playcast.ru/uploads/2013/12/05/6753979.gif);
-  margin-bottom: 120px;;
+  background-image:url("https://pics.prcm.jp/54000b9ed0f50/48329665/gif/48329665.gif");
+  background-size: 100%;
+  background-position: top 0px right 0px ;
+  background-repeat:repeat,no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 120px;
 }
 
