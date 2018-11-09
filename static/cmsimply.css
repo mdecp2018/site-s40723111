@@ -133,7 +133,7 @@ ul#css3menu1 ul a{
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	font:14px Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-	color:#ef05ff;
+	color:#000000;
 	text-decoration:none;
 }
 ul#css3menu1 li:hover>a,ul#css3menu1 li a.pressed{
